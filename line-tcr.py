@@ -1560,7 +1560,7 @@ def bot(op):
 				gid = cl.getGroupIdsJoined()
 				h = ""
 				for i in gid:
-					h += "%s\n" % (cl.getGroup(i).name +" → ["+str(len(cl.getGroup(i).members))+"]")
+					h += "%s\n" % (cl.getGroup(i).name +" > ["+str(len(cl.getGroup(i).members))+"]")
 				cl.sendText(msg.to,"-- List Groups --\n\n"+ h +"\nTotal groups =" +" ["+str(len(gid))+"]")
 												
             elif "Staff add @" in msg.text:
