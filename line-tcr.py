@@ -48,7 +48,7 @@ Creator  =  Melihat kontak pembuat bot
 private command :
 Set group = Melihat private menu"""
 
-Setgroup =""" Private Menu 􀔃􀄆red check mark􏿿
+Setgroup =""" Private Menu
 
 [Protect Group]
 -- Gr on/off
@@ -59,7 +59,7 @@ Setgroup =""" Private Menu 􀔃􀄆red check mark􏿿
 [No Joinned]
 -- Joinn on/off
 
-􀔃􀅕red arrow right􏿿 Command Private
+Command Private
 [Set View] = Melihat proteksi bot
 [Get ready] = Cek respon bot
 [Gn namagroup] = Ganti nama grup
