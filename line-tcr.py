@@ -154,8 +154,8 @@ def NOTIFIED_READ_MESSAGE(op):
             if Name in wait2['readMember'][op.param1]:
                 pass
             else:
-                wait2['readMember'][op.param1] += "\n・" + Name
-                wait2['ROM'][op.param1][op.param2] = "\n・" + Name
+                wait2['readMember'][op.param1] += "\n." + Name
+                wait2['ROM'][op.param1][op.param2] = "\n." + Name
         else:
             pass
     except:
