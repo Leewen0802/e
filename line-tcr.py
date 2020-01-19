@@ -27,7 +27,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" - Ard Squad bot -
+helpMessage =""" - ETLB -
 
 General command :
 Me  =  Cek akun sendiri
@@ -95,9 +95,9 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,"YOUR_MID"]
-admin=["YOUR_MID"]
-admsa=["YOUR_MID"]
+Bots=[mid,Amid,Bmid,Cmid,"ud88795856d91ef52b208b325ff267c56"]
+admin=["ud88795856d91ef52b208b325ff267c56"]
+admsa=["ud88795856d91ef52b208b325ff267c56"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -105,7 +105,7 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"Thanks for adding me\nFollow my instagram; instagram.com/fajrinard",
+    'message':"Thanks for adding me",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":True,
@@ -518,7 +518,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "ue11fc7860247c63bd3da149613a793f6":
+                if msg.from_ == "ud88795856d91ef52b208b325ff267c56":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -671,8 +671,8 @@ def bot(op):
                 kc.sendMessage(msg)
             elif msg.text in ["Creator","creator"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "Created By: FajrinArd")
-                msg.contentMetadata = {'mid': 'ue11fc7860247c63bd3da149613a793f6'}
+                cl.sendText(msg.to, "Created By: 李文")
+                msg.contentMetadata = {'mid': 'ud88795856d91ef52b208b325ff267c56'}
                 cl.sendMessage(msg)
             elif msg.text in ["Me"]:
                 msg.contentType = 13
@@ -1262,7 +1262,7 @@ def bot(op):
                     kk.sendText(msg.to,"makasih semuanya..")
                     kc.sendText(msg.to,"hehehhehe")
                     msg.contentType = 13
-                    msg.contentMetadata = {'mid': 'ue11fc7860247c63bd3da149613a793f6'}
+                    msg.contentMetadata = {'mid': 'ud88795856d91ef52b208b325ff267c56'}
                     cl.sendMessage(msg)
                     targets = []
                     for s in gs.members:
@@ -1730,7 +1730,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
 			cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
-			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by\nline.me/ti/p/~ardfajrin")
+			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by 李文")
 			ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
 			kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
 			kc.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
