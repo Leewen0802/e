@@ -1007,7 +1007,7 @@ def bot(op):
 							cl.sendText(msg.to,"done")
 						else:
 							cl.sendText(msg.to,"NO")
-            elif msg.text in ["å…±æœ‰:ã‚ªãƒ•","Share off","Share off"]:
+            elif msg.text in ["Share off","Share off"]:
 				if msg.from_ in admin:
 					if wait["timeline"] == False:
 						if wait["lang"] == "JP":
