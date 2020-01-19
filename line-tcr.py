@@ -1006,7 +1006,7 @@ def bot(op):
 						if wait["lang"] == "JP":
 							cl.sendText(msg.to,"done")
 						else:
-							cl.sendText(msg.to,"爆破")
+							cl.sendText(msg.to,"NO")
             elif msg.text in ["å…±æœ‰:ã‚ªãƒ•","Share off","Share off"]:
 				if msg.from_ in admin:
 					if wait["timeline"] == False:
@@ -1019,7 +1019,7 @@ def bot(op):
 						if wait["lang"] == "JP":
 							cl.sendText(msg.to,"done")
 						else:
-							cl.sendText(msg.to,"爆破")
+							cl.sendText(msg.to,"NO")
             elif msg.text in ["Set View"]:
 			  if msg.from_ in admin:	
 				md = ""
@@ -1059,7 +1059,7 @@ def bot(op):
 				if wait["lang"] == "JP":
 					cl.sendText(msg.to,"All invitations have been refused")
 				else:
-					cl.sendText(msg.to,"爆破")
+					cl.sendText(msg.to,"NO")
             elif msg.text in ["Gurl"]:
 			  if msg.from_ in admin:
 				if msg.toType == 2:
@@ -1391,17 +1391,17 @@ def bot(op):
            
         #-------------Fungsi Spam Start---------------------#
             elif msg.text in ["Up","up","Up Chat","Up chat","up chat","Upchat","upchat"]:
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
-                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
+                cl.sendText(msg.to,"OH")
         #-------------Fungsi Spam Finish---------------------#
 
         #-------------Fungsi Broadcast Start------------#
@@ -1730,7 +1730,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
           try:    
 			cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
-			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by 李文")
+			cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like by EagleTECH")
 			ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
 			kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
 			kc.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1003)
