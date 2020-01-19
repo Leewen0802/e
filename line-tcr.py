@@ -671,7 +671,7 @@ def bot(op):
                 kc.sendMessage(msg)
             elif msg.text in ["Creator","creator"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "Created By: 李文")
+                cl.sendText(msg.to, "ETLB CREATOR>EagleTECH")
                 msg.contentMetadata = {'mid': 'ud88795856d91ef52b208b325ff267c56'}
                 cl.sendMessage(msg)
             elif msg.text in ["Me"]:
@@ -1023,11 +1023,11 @@ def bot(op):
             elif msg.text in ["Set View"]:
 			  if msg.from_ in admin:	
 				md = ""
-				if wait["Protectjoin"] == True: md+="􀔃􀆑lock􏿿  Block Join\n"
+				if wait["Protectjoin"] == True: md+="Block Join\n"
 				else: md+=" Block Join Off\n"
-				if wait["Protectgr"] == True: md+="􀔃􀆑lock􏿿   Block Group\n"
+				if wait["Protectgr"] == True: md+="Block Group\n"
 				else: md+=" Block Group Off\n"
-				if wait["Protectcancl"] == True: md+="􀔃􀆑lock􏿿 Cancel All Invited\n"
+				if wait["Protectcancl"] == True: md+="Cancel All Invited\n"
 				else: md+=" Cancel All Invited Off\n"
 				if wait["contact"] == True: md+=" Contact : on\n"
 				else: md+=" Contact : off\n"
@@ -1391,17 +1391,17 @@ def bot(op):
            
         #-------------Fungsi Spam Start---------------------#
             elif msg.text in ["Up","up","Up Chat","Up chat","up chat","Upchat","upchat"]:
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
-                cl.sendText(msg.to,"􀔃􀆶squared up!􏿿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
+                cl.sendText(msg.to,"阿阿阿")
         #-------------Fungsi Spam Finish---------------------#
 
         #-------------Fungsi Broadcast Start------------#
@@ -1414,9 +1414,9 @@ def bot(op):
        #--------------Fungsi Broadcast Finish-----------#
 
             elif msg.text in ["Cv say hi"]:
-                ki.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
+                ki.sendText(msg.to,"Hi buddy Har Har")
+                kk.sendText(msg.to,"Hi buddy Har Har")
+                kc.sendText(msg.to,"Hi buddy Har Har")
 
 #-----------------------------------------------
 
