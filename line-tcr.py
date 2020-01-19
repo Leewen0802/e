@@ -678,7 +678,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.from_}
                 cl.sendMessage(msg)
-            elif msg.text in ["æ„›ã�®ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆ","Gift"]:
+            elif msg.text in ["Gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
                                     'PRDTYPE': 'THEME',
@@ -968,7 +968,7 @@ def bot(op):
                         cl.sendText(msg.to,"Cek Mid Send Contact Off")
                     else:
                         cl.sendText(msg.to,"done")
-            elif msg.text in ["è‡ªå‹•å�‚åŠ :ã‚ªãƒ³","Join on","Auto join:on","è‡ªå‹•å�ƒåŠ ï¼šé–‹"]:
+            elif msg.text in ["Join on","Auto join:on"]:
 				if msg.from_ in admin:	
 					if wait["autoJoin"] == True:
 						if wait["lang"] == "JP":
@@ -981,7 +981,7 @@ def bot(op):
 							cl.sendText(msg.to,"already on")
 						else:
 							cl.sendText(msg.to,"done")
-            elif msg.text in ["è‡ªå‹•å�‚åŠ :ã‚ªãƒ•","Join off","Auto join:off","è‡ªå‹•å�ƒåŠ ï¼šé—œ"]:
+            elif msg.text in ["Join off","Auto join:off"]:
 				if msg.from_ in admin:
 					if wait["autoJoin"] == False:
 						if wait["lang"] == "JP":
@@ -994,7 +994,7 @@ def bot(op):
 							cl.sendText(msg.to,"already off")
 						else:
 							cl.sendText(msg.to,"done")
-            elif msg.text in ["å…±æœ‰:ã‚ªãƒ³","Share on","Share on"]:
+            elif msg.text in ["Share on","Share on"]:
 				if msg.from_ in admin:	
 					if wait["timeline"] == True:
 						if wait["lang"] == "JP":
@@ -1006,7 +1006,7 @@ def bot(op):
 						if wait["lang"] == "JP":
 							cl.sendText(msg.to,"done")
 						else:
-							cl.sendText(msg.to,"è¦�äº†å¼€ã€‚")
+							cl.sendText(msg.to,"爆破")
             elif msg.text in ["å…±æœ‰:ã‚ªãƒ•","Share off","Share off"]:
 				if msg.from_ in admin:
 					if wait["timeline"] == False:
@@ -1019,7 +1019,7 @@ def bot(op):
 						if wait["lang"] == "JP":
 							cl.sendText(msg.to,"done")
 						else:
-							cl.sendText(msg.to,"è¦�äº†å…³æ–­ã€‚")
+							cl.sendText(msg.to,"爆破")
             elif msg.text in ["Set View"]:
 			  if msg.from_ in admin:	
 				md = ""
@@ -1059,7 +1059,7 @@ def bot(op):
 				if wait["lang"] == "JP":
 					cl.sendText(msg.to,"All invitations have been refused")
 				else:
-					cl.sendText(msg.to,"æ‹’ç»�äº†å…¨éƒ¨çš„é‚€è¯·ã€‚")
+					cl.sendText(msg.to,"爆破")
             elif msg.text in ["Gurl"]:
 			  if msg.from_ in admin:
 				if msg.toType == 2:
